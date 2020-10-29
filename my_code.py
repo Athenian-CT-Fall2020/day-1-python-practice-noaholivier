@@ -5,6 +5,13 @@ name2 = 'tired'
 print(f'I am {name} and {name2}')
 
 
+print('What is your favorite class in school')
+class1 = input()
+print(f'I do not share your love for {class1}')
 
-
-
+print('Enter a number:')
+num = input()
+num = int(num)
+twice = num * 2
+print(twice)
+print(type(num))
